@@ -4245,10 +4245,9 @@ self.C3_JsPropNameTable = [
 	{kapatKaynakca: 0},
 	{hazirlayanlar: 0},
 	{kapatHazirlayanlar: 0},
-	{Sprite: 0},
 	{sure: 0},
 	{yenidenDene: 0},
-	{tekrarDene: 0},
+	{btnTekrarDene: 0},
 	{tebrikler: 0},
 	{Flash: 0},
 	{tebriklerr: 0},
@@ -4309,10 +4308,9 @@ self.InstanceType = {
 	kapatKaynakca: class extends self.ISpriteInstance {},
 	hazirlayanlar: class extends self.ISpriteInstance {},
 	kapatHazirlayanlar: class extends self.ISpriteInstance {},
-	Sprite: class extends self.ISpriteInstance {},
 	sure: class extends self.ISpriteInstance {},
 	yenidenDene: class extends self.ISpriteInstance {},
-	tekrarDene: class extends self.ISpriteInstance {},
+	btnTekrarDene: class extends self.ISpriteInstance {},
 	tebrikler: class extends self.ISpriteInstance {},
 	tebriklerr: class extends self.ISpriteInstance {},
 	konfiti: class extends self.ISpriteInstance {},
@@ -4449,11 +4447,11 @@ self.C3_ExpressionFuncs = [
 			return () => v0.GetValue();
 		},
 		() => 0.3,
-		() => "sure",
 		() => 11,
+		() => 9,
+		() => 0.5,
 		() => "tebrik",
-		() => "yeniden",
-		() => 9
+		() => "yeniden"
 ];
 
 
